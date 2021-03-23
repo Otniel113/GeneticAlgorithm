@@ -187,11 +187,11 @@ for i in range(1, 100): #Dihentikan sampai generasi ke-100
     #SurvivorSelection dengan Generation Replacement Elitism
     elit1, elit2 = survivorSelection(populasi_fitness)
 
-    #Memasukkan Kromosomnya
+    #Memasukkan nilai Fitnessnya
     next_fitness.append(populasi_fitness[elit1])
     next_fitness.append(populasi_fitness[elit2])
 
-    #Memasukkan nilai Fitnessnya
+    #Memasukkan Kromosomnya
     next_kromosom.append(populasi_kromosom[elit1])
     next_kromosom.append(populasi_kromosom[elit2])
 
